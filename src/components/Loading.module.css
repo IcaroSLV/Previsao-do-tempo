@@ -1,0 +1,18 @@
+.Loading{
+    height: 5em;
+    width: 5em;
+    border: 8px solid black;
+    border-top: 8px solid blue;
+    border-radius: 100%;
+    margin-top: 3em;
+    animation: Load 1s ease-in infinite;
+}
+
+@keyframes Load {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
