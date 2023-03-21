@@ -1,0 +1,40 @@
+.Card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vh;
+    height: 15em;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 2em;
+}
+
+.Card section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.weatherDescription div {
+    display: flex;
+    gap: .5em;
+    margin-right: 1em;
+}
+
+.weatherDescription img {
+    height: 40px;
+    width: 40px;
+}
+
+.weatherDescription div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tempDescription {
+
+}
